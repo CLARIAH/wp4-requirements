@@ -1,0 +1,10 @@
+job		upstart				misc
+grlc		/etc/init/grlc.conf
+scry		/etc/init/scry.conf
+lsd-mongo	/etc/init/lsd-mongo.conf
+lsd-client	/etc/init/lsd-client.conf
+brwsr		/etc/init/brwsr.conf		app gunicorn must not be daemonized
+api		/etc/init/clariah-sdh-api.conf	app gunicorn must not be daemonized
+gitlab		???				
+gitlab-hook	???				
+virtuoso	???				
