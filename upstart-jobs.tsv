@@ -7,4 +7,4 @@ brwsr		/etc/init/brwsr.conf		app gunicorn must not be daemonized
 api		/etc/init/clariah-sdh-api.conf	app gunicorn must not be daemonized
 gitlab		???				
 gitlab-hook	???				
-virtuoso	???				
+virtuoso	/etc/init/virtuoso.conf				
